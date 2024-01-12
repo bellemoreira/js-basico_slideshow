@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel = "stylesheet" href="estilo.css"/>
+</head>
+<body>
+    <header>
+        <div class="header">in the beginning</div>
+        <div class = "slide">
+
+            <div class ="slide-controles">
+                
+                <div class="slide-controle" onclick="voltarSlide()"> </div>
+                <div class="slide-controle" onclick="seguirSlide()">  </div>
+
+            </div>
+
+            <div class ="slide-largura" style ="width: calc(100vw*3);">
+
+                <div class ="slide-item" style = "background-image: url('imagens/img1.jpg')">
+                    ¹ In the beginning God created the heavens and the earth
+                </div>
+                <div class ="slide-item" style = "background-image: url('imagens/img2.jpg')">
+                    ² Now the earth was formless and empty, darkness was over the<br/> surface of the deep, and the Spirit of God, was hovering over the waters 
+                </div>
+                <div class ="slide-item" style = "background-image: url('imagens/img3.jpg')">
+                    ³ And God said, "Let there be light," and there was light 
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </header>
+
+   <script src = "slide.js"></script> 
+</body>
+</html>
